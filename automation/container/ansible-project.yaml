@@ -1,0 +1,8 @@
+apiVersion: wama.runner.io/v1alpha1
+kind: WamaProject
+metadata:
+  name: automation-container
+spec:
+  provider: github
+  repoURL: https://githun.com/chwiee/wama-runner
+  branch: main
