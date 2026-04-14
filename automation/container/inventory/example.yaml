@@ -1,0 +1,10 @@
+apiVersion: wama.runner.io/v1alpha1
+kind: WamaInventory
+metadata:
+  name: InventoryExample
+spec:
+  source:
+    type: inline
+  inline:
+    [local]
+    localhost ansible_connection=local   
